@@ -1,0 +1,8 @@
+# Whitelist: this folder also holds course reports, slides, photos and a
+# virtual environment, which should not be published with the code.
+# Ignore everything, then re-include only the files meant for the repo.
+*
+!.gitignore
+!README.md
+!requirements.txt
+!engg1101robot_final.py
